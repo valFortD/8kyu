@@ -58,3 +58,6 @@ When nb_petals is 7, the index wraps around to 0 ("I love you") again, and so on
 
 This approach efficiently handles any positive integer input for nb_petals, ensuring the correct phrase is returned based on the cyclic nature of the phrases.
 """
+
+print(how_much_i_love_you(1))  # "I love you"
+print(how_much_i_love_you(2))  # "a little"
